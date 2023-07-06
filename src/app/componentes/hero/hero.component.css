@@ -1,0 +1,130 @@
+/* HERO */
+
+.hero{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height: 74vh;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    background:#E1DDCB;
+}
+.hero-text{
+    padding-left: 90px;
+    font-size: 35px;
+    font-weight: 600;
+    color: #F44307;
+}
+.hero-text ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    gap: 10px;
+    align-items: center;
+}
+.hero-text ul li a{
+    color: #F44307;
+}
+.hero-text ul li a:hover{
+    color: #00BEEF;
+    filter: drop-shadow(0 0 20px #00BEEF);
+}
+.hero-img{
+    width: 50%;
+}
+.hero-img img{
+    width: 600px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    z-index: 0;
+}
+
+/* RESPONSIVE HERO */
+@media only screen and (min-width: 1600px){
+    .hero{
+        height: 667px;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .hero{
+        height: 667px;
+    }
+    .hero-text{
+        padding-top: 150px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .hero{
+        height: 667px;
+        width: 100vw;
+    }
+    .hero-text{
+        padding-top: 150px;
+        z-index: 1;
+        left: -5%;
+    }
+    .hero-img img{
+      left: 38%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .hero{
+        flex-direction: column;
+        height: 790px;
+        width: 100vw;
+    }
+    .hero-text{
+        z-index: 1;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    .hero-img img{
+        width: 600px;
+        top: 200px;
+        left: 10%;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 600px){
+    .hero{
+        flex-direction: column;
+        height: 679px;
+    }
+    .hero-text{
+        z-index: 1;
+        font-size: 25px;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    .hero-img img{
+        width: 500px;
+        top: 200px;
+        left: 30px;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 500px){
+    .hero{
+        flex-direction: column;
+        height: 569px;
+    }
+    .hero-text{
+        z-index: 1;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    .hero-img img{
+        width: 350px;
+        top: 259px;
+        left: 0;
+        justify-content: center;
+    }
+}
+@media only screen and(max-width:400px){
+  
+}

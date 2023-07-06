@@ -1,0 +1,57 @@
+/* SOBRE MI */
+.sobremi{
+    width: 90vw;
+    margin: auto;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.sobremi-title{
+    color: #F44307;
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+.sobremi-subtitle{
+    color: #F44307;
+    font-size: 1.4rem;
+
+}
+.sobremi-date{
+    color: #E1DDCB;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sobremi-text{
+    margin: auto;
+    width: 80vw;
+    grid-column: 2 / 3;
+    font-size: 1.5rem;
+    letter-spacing: 0.4px;
+    column-width: 25rem;
+    text-align: justify;
+    padding-top: 30px;
+}
+.sobremi-text p{
+    color: #E1DDCB;
+    font-family: 'Baskervville', serif;;
+}
+.first-parrafo::first-letter{
+    font-size: 6rem;
+    color: #F44307;
+    float: left;
+    margin-right: 1rem;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 500px){
+    .sobremi-title{
+        font-size: 4rem;
+    }
+    .sobremi-text{
+        font-size: 1.2rem;
+    }
+}
